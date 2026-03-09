@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #111;
+  color: #eee;
+}
+
+.navbar {
+  background: #000;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #e63946;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hero,
+.section {
+  padding: 30px 15px;
+  text-align: center;
+}
+h1,
+h2 {
+  color: #e63946;
+}
+.price span {
+  color: #ffd166;
+}
+
+marquee {
+  margin-top: 15px;
+}
+
+marquee img {
+  width: 220px;
+  height: 140px;
+  margin: 0 10px;
+}
+
+.contact-section {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.contact-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-card input,
+.contact-card button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 52px;
+    left: 0;
+    width: 100%;
+    background: #000;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 14px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+}

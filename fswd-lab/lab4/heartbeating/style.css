@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heart {
+  font-size: 70px;
+  align-items: center;
+  justify-content: center;
+  animation: heartbeat 5s linear infinite;
+  margin: 50px;
+  padding: 50px;
+}
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(2);
+  }
+  30% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(2);
+  }
+  60% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(2);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+.heart:hover {
+  background-color: red;
+  animation-play-state: paused;
+}

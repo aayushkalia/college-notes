@@ -1,0 +1,26 @@
+.emergency {
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  animation: flash 1s infinite;
+}
+.emergency:hover {
+  background-color: rgb(228, 125, 125);
+  cursor: pointer;
+  transition-duration: 2s;
+  transition-property: linear;
+  transform: scale(1.2);
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

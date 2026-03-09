@@ -1,0 +1,82 @@
+body {
+  display: grid;
+  gap: 25px;
+  margin: 35px;
+}
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box1 {
+  background: linear-gradient(
+    to right,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+.box2 {
+  background: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+.box3 {
+  background: linear-gradient(to left, red 20%, yellow 35%, green 48%);
+}
+.box4 {
+  background: linear-gradient(
+    to left,
+    rgba(35, 23, 66, 0.4),
+    rgba(35, 23, 66, 1)
+  );
+}
+.box5 {
+  background: repeating-linear-gradient(yellow, green 20%);
+}
+.box6 {
+  background: repeating-linear-gradient(45deg, yellow, green 20%);
+}
+.box7 {
+  background: radial-gradient(red, yellow, green);
+}
+.box8 {
+  background: radial-gradient(ellipse at right, red, yellow, green);
+}
+.box9 {
+  background: radial-gradient(
+    circle farthest-corner at right,
+    red,
+    yellow,
+    green
+  );
+}
+.box10 {
+  background: radial-gradient(
+    ellipse farthest-corner at right,
+    red,
+    yellow,
+    green
+  );
+}
+.box11 {
+  width: 400px;
+  background: repeating-radial-gradient(ellipse, red 60%, yellow);
+}
+.box12 {
+  width: 400px;
+  background: repeating-radial-gradient(ellipse, green 22%, red 60%, yellow);
+}
+.box13 {
+  background: conic-gradient(from 24deg at center, red, yellow, green);
+}

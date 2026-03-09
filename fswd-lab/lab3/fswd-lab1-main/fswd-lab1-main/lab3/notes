@@ -1,0 +1,8 @@
+html code for firstly adding a box
+
+/* animation main we transform and not translate 
+
+order matters in transform... eg translate rotate is not similar to rotate translate im "to" and "from" because each transform changes the co ordinate system for each one*/
+
+motion may shift 
+transform is not commutative

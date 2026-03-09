@@ -1,0 +1,68 @@
+body {
+  display: grid;
+}
+
+.box {
+  /* padding-left:100px: */
+  /* top: 50%; */
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.one:hover {
+  transform: translate(100px, 50px);
+}
+.two:hover {
+  transform: scale(1.5);
+}
+
+.three:hover {
+  transform: rotate(50deg);
+}
+.four:hover {
+  transform: skew(15deg);
+  transform-origin: top left;
+}
+
+.five {
+  transition: all 2s ease;
+}
+.five:hover {
+  transform: translate(50px) rotate(45deg) scale(1.2);
+}
+.createhover {
+  transition: all 5s ease;
+}
+.createhover:hover {
+  transform: translateX(100px) rotate(45deg) scale(1.2);
+}
+.keyframefwd {
+  position: relative;
+  animation: move 2s linear infinite alternate;
+}
+
+@keyframes move {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+  /* transform: translateX(100px) rotate(45deg) scale(1.2); */
+}
+.keyframechange {
+  position: relative;
+  animation: change 2s 1s forwards;
+}
+
+@keyframes change {
+  from {
+    background-color: blue;
+  }
+  to {
+    background: red;
+  }
+  /* transform: translateX(100px) rotate(45deg) scale(1.2); */
+}

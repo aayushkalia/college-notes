@@ -1,0 +1,63 @@
+body {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.crewmate {
+  position: relative;
+  width: 140px;
+  height: 220px;
+  background: #e63946;
+  border: px solid black;
+  border-radius: 70px 70px 40px 40px;
+  animation: walk 4s linear infinite;
+}
+
+.visor {
+  position: absolute;
+  top: 40px;
+  left: 35px;
+  width: 80px;
+  height: 50px;
+  background: #bde0fe;
+  border-radius: 50%;
+  border: 6px solid #333;
+}
+
+.backpack {
+  position: absolute;
+  left: -30px;
+  top: 60px;
+  width: 40px;
+  height: 90px;
+  background: #d62828;
+  border-radius: 20px;
+}
+
+.leg {
+  position: absolute;
+  bottom: -25px;
+  width: 45px;
+  height: 40px;
+  background: #e63946;
+  border-radius: 0 0 20px 20px;
+}
+
+.leg.left {
+  left: 20px;
+}
+
+.leg.right {
+  right: 20px;
+}
+@keyframes walk {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(300px);
+  }
+}

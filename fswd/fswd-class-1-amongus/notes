@@ -1,0 +1,42 @@
+position - absolute vs realtive
+
+the elements stay in the normal document flow u cna move it using top left right bottom.
+syntax .box-name{
+    l:something; etc
+}
+it moves to its original position
+.box{
+    position:relative;
+    top:20px;
+    left:20 px;
+}
+other element do not move into this space
+use case - if u want to move some element slightyl do the relative part
+
+
+now absolute 
+the element is removed from the normal doc flow
+position relative to nesarest position ie: parent ke relative hogi
+
+eg
+.child{
+    pos:rel;
+    top:10;
+    l:20px;
+}
+element will move freely kahin bhi on basis of parent
+
+use cases : popups, icon buttons.
+
+
+next task - move the among us character from left to right animation
+
+
+
+create a basic html structure game page with header main game area and footer 
+divide the game area into multiple rooms. onw is cafeteria, electrical , and storage
+add a fix top bar ddisplaying game title among us game animation
+design among us crewmate using div element and CSS
+add a visor and backpack using CSS
+
+add labels to multiple crewmates as player name and create a css class to highlight impostor crewmate.

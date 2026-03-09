@@ -1,0 +1,16 @@
+Transition between two or more colours is called gradient.
+
+Background: ______ (direction,col1 ,col)
+
+A linear gradient creates a smooth transition between two or more colours along a straight line…
+By default transition is top-bottom..
+
+1 You do not need to take a image
+Image storage leti hai… ab loading ka problem ni ayega.
+
+2 scalable and responsive.
+
+3 modern UI design - attractive buttons used in apps like instagram
+
+4 Easy to customise
+

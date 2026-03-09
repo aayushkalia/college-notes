@@ -1,0 +1,17 @@
+body {
+  background:
+    linear-gradient(to bottom, red, transparent),
+    linear-gradient(to right, blue 20%, yellow 80%);
+}
+.newbtn {
+  border: 0px;
+  background: linear-gradient(to right, blue 20%, yellow 80%);
+  /* transition-property: background; */
+  transition: all 2s ease;
+}
+.newbtn:hover {
+  color: black;
+  font-size: larger;
+  transform: scale(1.2);
+  border: 2px linear-gradient(to right, blue, yellow) solid;
+}

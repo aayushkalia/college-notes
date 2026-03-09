@@ -1,0 +1,23 @@
+body{
+    /* background-color: rgb(155, 150, 150); */
+    background-color: black;
+}
+.redbox{
+    width: 200px;
+    height: 200px;
+    animation: move 5s linear infinite;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.para{
+    font-size: 50px;
+}
+@keyframes move {
+    from {
+        transform: translateX(-50vh) translateY(-50vw) rotate(-180deg) scale(0.9)skew(0deg);
+    }
+    to{
+        transform: translateX(150vh) translateY(100vw) rotate(180deg) scale(1) skew(2deg);
+}
+}
